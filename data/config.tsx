@@ -9,8 +9,26 @@ const siteConfig = {
   
   logo: Logo,
   seo: {
-    title: 'Aiware AI Library',
-    description: 'Comprehensive AI Tools & Prompts Library',
+    title: 'AI Tools & Prompts Library',
+    description: 'All in one AI Library. Comprehensive and filterable AI Library with the best AI tools and ChatGPT & Midjourney Prompts Library. Created by Aiware.me',
+    openGraph: {
+      type: 'website',
+      url: 'https://aitoolslibrary.super.site',
+      title: 'AI Tools & Prompts Library',
+      description: 'All in one AI Library. Comprehensive and filterable Artificial Intelligence Library with the best AI tools and ChatGPT & Midjourney Prompts Library',
+      site_name: 'Aiware AI Library',
+    },
+    twitter: {
+      handle: '@piotrmacai',
+      site: '@piotrmacai',
+      cardType: 'summary_large_image',
+    },
+    additionalMetaTags: [
+      { name: 'author', content: 'Piotr Macai' },
+      { name: 'keywords', content: 'ai, ai tools, chatgpt prompts, midjourney prompts, ai library' },
+      { property: 'og:title', content: 'AI Tools & Prompts Library' },
+      { property: 'og:description', content: 'All in one AI Library. Comprehensive and filterable AI Library with the best AI tools and ChatGPT & Midjourney Prompts Library.' },
+    ],
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
