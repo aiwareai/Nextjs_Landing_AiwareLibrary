@@ -79,8 +79,8 @@ const siteConfig = {
       //   href: '/login',
       // },
       {
-        label: 'Aiware.tools',
-        href: 'https://aitoolslibrary.super.site/',
+        label: 'Newsletter',
+        href: 'https://aiwarenews.beehiiv.com/subscribe',
         variant: 'primary',
         target: '_blank',
      },
@@ -99,7 +99,6 @@ const siteConfig = {
     //   </>
     // ),
     links: [
-      
       {
         id: 'twitter',
         href: 'https://twitter.com/piotrmacai',
@@ -117,7 +116,7 @@ const siteConfig = {
         id: 'facebook',
         label: <FaFacebook size="14" />,
         style: { paddingTop: '0.6rem' },
-        href: 'https://www.linkedin.com/in/piotrmac0/',
+        href: 'https://www.facebook.com/profile.php?id=100093134271073',
         target: '_blank',
       },
       {
