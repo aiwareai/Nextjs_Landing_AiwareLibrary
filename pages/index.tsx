@@ -21,7 +21,6 @@ import {
 import { SEO } from 'components/seo/seo'
 
 import { FallInPlace } from 'components/motion/fall-in-place'
-import { Hero } from 'components/hero'
 import { Link, Br } from '@saas-ui/react'
 import { Em } from 'components/typography'
 import { NextjsLogo, ChakraLogo } from 'components/logos'
@@ -44,10 +43,6 @@ import {
   FiUserPlus,
 } from 'react-icons/fi'
 import { BackgroundGradient } from 'components/gradients/background-gradient'
-import { Faq } from 'components/faq'
-import { Pricing } from 'components/pricing/pricing'
-
-import { ButtonLink } from 'components/button-link/button-link'
 
 import {
   Highlights,
@@ -63,12 +58,7 @@ const Home: NextPage = () => {
         description="Comprehensive and Filterable Generative AI Tools and ChatGPT with other AI LLM models and AI image generation Prompt Library"
       />
       <Box>
-        {/* <HeroSection /> */}
         <HighlightsSection />
-        {/* <FeaturesSection /> */}
-        {/* <TestimonialsSection />
-        <PricingSection />
-        <FaqSection /> */}
       </Box>
     </Box>
   )
