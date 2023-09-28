@@ -24,7 +24,7 @@ export const HighlightsItem: React.FC<HighlightBoxProps> = (props) => {
     <GridItem
       as={Card}
       borderRadius="md"
-      p="6"
+      p="12"
       flex="1 0"
       alignItems="flex-start"
       spacing="8"
